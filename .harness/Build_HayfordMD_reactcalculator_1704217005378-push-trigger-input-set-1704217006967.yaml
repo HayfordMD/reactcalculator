@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_HayfordMD_reactcalculator_1704217005378-push-trigger-input-set
+  identifier: Build_HayfordMD_reactcalculator_1704217005378pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: asdffsad
+  pipeline:
+    identifier: Build_HayfordMD_reactcalculator_1704217005378
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
